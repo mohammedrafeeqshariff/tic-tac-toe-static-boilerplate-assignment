@@ -1,0 +1,105 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Poppins:wght@500&display=swap');
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: dodgerblue;
+}
+
+.heading{
+    margin-top: 3%;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 92px;
+    color: #FAB201;
+    font-weight: 900;
+    -webkit-text-stroke: 2px white; 
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* padding: 2%; */
+    width:150%;
+    height: 110px;
+    border-radius: 10%;
+    margin:auto;
+    color: #FAB201;
+    /* border: 2px solid black; */
+    font-size:100px;
+    font-weight: 800;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    cursor:pointer;
+}
+
+#container{
+    margin:3% auto;
+    display: grid;
+    grid-template-columns:repeat(3, 5%);
+    grid-template-rows:repeat(3, 5%);
+    column-gap: 3.5%;
+    row-gap:    33%;
+    justify-content: center;
+    /* border: 2px solid black; */
+    /* align-items: center; */
+}
+.foot_word{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    /* left: 20%; */
+}
+.kalvian{
+    font-weight: 600;
+    font-size: xx-large;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.final_result{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    flex-direction: column;
+    visibility: hidden;
+    opacity: 0.9;
+}
+
+.result{
+    font-size: 50px;
+    color: white;
+}
+
+.button{
+    padding: 10px;
+    margin-top: 30px;
+    background-color:#FAB201;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    opacity: 1;
+    border-radius: 5px;
+}
+
+
